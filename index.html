@@ -9,19 +9,83 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="about">
-            <h2>Mauro Freire</h2>
-            <img src="https://avatars.githubusercontent.com/u/54900452?v=4" alt="Foto Perfil">
-            <p>Olá! Sou Mauro Freire, tenho 22 anos cursando sistema da informação, moro em Lauro de Freitas/Bahia, estou focado na area de desenvolvimento web, tanto para frontend quanto o backend.</p>
-        </div>
-        <div class="social">
-            <ul>
-                <li><a href="https://github.com/mcostajr"><i class="fab fa-github"></i></a></li>
-                <li><a href="mailto:maurofreirejr@gmail.com"><i class="fas fa-envelope"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/maurofreirejr/"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-        </div>
-    </div>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#project">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    <main class="wrapper">
+        <section class="home">
+            <div class="info">
+                <div><span>Olá, sou</span></div>
+                <h2>Mauro Freire</h2>
+                <h4>Desenvolvedor Web</h4>
+                <span><i class="fas fa-envelope"></i><span>maurofreirejr@gmail.com</span></span>
+                <span><i class="fas fa-phone"></i><span>+55 (71) 99669-5848</span></span>
+                <span><i class="fas fa-map-marker-alt"></i><span>Lauro de Freitas, Bahia, Brasil</span></span>
+                <ul>
+                    <li><a href="https://github.com/mcostajr"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/maurofreirejr/"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.facebook.com/mauro.freire.33"><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="https://avatars.githubusercontent.com/u/54900452?v=4" alt="Foto Perfil">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="image">
+                <img src="./img/me.png" alt="Foto About">
+            </div>
+            <div class="info">
+                <h2>Sobre</h2>
+                <p>Olá, Sou Mauro, desenvolvedor web. Tenho experiência em construção de sites</p>
+                <ul>
+                    <li>Typescript</li>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>React</li>
+                    <li>Next.Js</li>
+                </ul>
+                <button type="submit" onclick="window.open('./assets/cv-mauro.pdf')">Baixar CV</button>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="image">
+                <img src="./img/banner-skills.jpg" alt="Banner Skills">
+            </div>
+            <div class="info">
+                <ul>
+                    <li>Next.Js</li>
+                    <li>React</li>
+                    <li>Typescript</li>
+                    <li>Javascript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>Node.Js</li>
+                    <li>Express</li>
+                    <li>SQL</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+        </section>
+        <section class="project">
+
+        </section>
+        <section class="contact">
+
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
 </body>
 </html>
