@@ -5,6 +5,7 @@
 
     font-family: 'Varela Round', sans-serif;
     list-style-type: none;
+    scroll-behavior:smooth
 }
 
 body {
@@ -176,7 +177,6 @@ nav > a:hover {
     gap: 1.5rem;
     margin-top: 30px;
 }
-
 
 .skills > .info > ul li {
     display: flex;
