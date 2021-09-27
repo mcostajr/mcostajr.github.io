@@ -98,13 +98,18 @@ nav > a:hover {
     margin-left: 20px;
 }
 
-.home > .image > img { 
+.home > .image {
     width: 250px;
     height: 250px;
     border-radius: 50%;
     border: #00c6ff 5px solid;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    background-image: url('./img/photo.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .about {
