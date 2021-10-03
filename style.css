@@ -58,9 +58,10 @@ nav > a:hover {
 
 .home > .info > div:first-child {
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 600;
-    width: 50px;
+    min-width: 60px;
+    width: 60px;
     padding: 5px;
     background: rgb(103, 210, 183);
     border: 1px solid rgb(103, 210, 183);
@@ -98,13 +99,20 @@ nav > a:hover {
     margin-left: 20px;
 }
 
-.home > .image {
+.home > .moldure {
+    min-width: 270px;
+    max-width: 270px;
+    min-height: 270px;
+    max-height: 270px;
+    border: rgb(236, 236, 236) 10px solid;
+    border-radius: 50%;
+}
+
+.home > .moldure > .image {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    border: #00c6ff 5px solid;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border: rgb(217, 217, 217) 10px solid;
 
     background-image: url('./img/photo.JPG');
     background-repeat: no-repeat;
