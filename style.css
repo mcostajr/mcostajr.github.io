@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #F2F3F5;
+    background: #ebebeb;
 }
 
 .header-container {
@@ -173,7 +173,7 @@ body {
 }
 
 .moldure {
-    border: rgb(236, 236, 236) 10px solid;
+    border: rgb(223, 222, 222) 10px solid;
     border-radius: 50%;
 }
 
@@ -181,7 +181,7 @@ body {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    border: rgb(217, 217, 217) 10px solid;
+    border: rgb(211, 210, 210) 10px solid;
 
     background-image: url('./img/photo.JPG');
     background-repeat: no-repeat;
