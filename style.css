@@ -262,7 +262,14 @@ body {
     display: flex;
     
     gap: 1rem;
-    margin-top: 15rem;
+    margin-top: 24rem;
+    margin-bottom: 3rem;
+}
+
+.skills-wrapper span {
+    position: absolute;
+    font-size: 0.85rem;
+    transform: translate(190px,85px);
 }
 
 .skills-list {
