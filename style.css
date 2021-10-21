@@ -75,7 +75,7 @@ body {
     .dropdown-container {
         display: none;
         position: absolute;
-        transform: translate(-15%, 5%);
+        right: 0;
     }
 
     .dropdown-wrapper {
@@ -118,8 +118,7 @@ body {
 
 .home-wrapper {
     display: flex;
-    flex-wrap: wrap;
-    gap: 150px;
+    flex-wrap: wrap-reverse;
     justify-content: center;
     padding: 5rem 0;
 }
