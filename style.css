@@ -272,6 +272,23 @@ body {
     transform: translate(190px,85px);
 }
 
+.skills-wrapper .smoke {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.smoke-1 {
+    transform: translate(310px,75px);
+}
+
+.smoke-2 {
+    transform: translate(320px,60px);
+}
+
+
 .skills-list {
     position: absolute;
     display: flex;
