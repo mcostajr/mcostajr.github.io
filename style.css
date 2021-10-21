@@ -270,10 +270,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 450px;
+    width: 375px;
     flex-wrap: wrap;
     gap: 1.5rem;
-    transform: translate(100px,-230px);
+    transform: translateY(-230px);
     border: 1px solid white;
     border-radius: 50px;
     padding: 20px;
@@ -283,12 +283,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
     font-size: 0.7rem;
     border-radius: 50%;
     font-weight: 600;
     color: white;
+    padding: 15px;
 }
 
 .skills-list li:nth-child(even) {
@@ -320,6 +319,7 @@ body {
 .project-list {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 1rem;
