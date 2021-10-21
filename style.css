@@ -113,8 +113,8 @@ body {
     font-weight: 600;
 }
 
-.nav-wrapper > a:hover {
-    border-bottom: solid 1px gray;
+.nav-wrapper a:hover {
+    border-bottom: solid 2px gray;
 }
 
 .home-container {
@@ -127,7 +127,9 @@ body {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
-    padding: 5rem 0;
+    gap: 6rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
 }
 
 .home-info {
@@ -147,13 +149,13 @@ body {
     border-radius: 20px 20px 20px 0px;
 }
 
-.home-info > h2 {
+.home-info h2 {
     font-weight: 600;
     font-size: 2.5rem;
     margin-bottom: 2px;
 }
 
-.home-info > h4 {
+.home-info h4 {
     font-weight: 600;
     font-size: 1.2rem;
     margin-bottom: 20px;
@@ -161,6 +163,7 @@ body {
 
 .home-info > span {
     display: flex;
+    align-items: center;
     gap: 15px;
     font-size: 0.8rem;
     margin-bottom: 10px;
@@ -206,7 +209,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .about-info {
@@ -223,7 +228,7 @@ body {
     justify-content: center;
 }
 
-.about-info > ul > li {
+.about-info ul li {
     font-size: 0.7rem;
     padding: 3px;
     border: solid 1px gray;
@@ -236,12 +241,14 @@ body {
     border: 0px;
     border-radius: 10px;
     background: rgb(103, 210, 183);
+
+    color: white;
 }
 
 
 .about-info button:hover {
     cursor: pointer;
-    background: rgba(103, 210, 183, 0.658);
+    filter: brightness(0.8);
 }
 
 .skills-container {
@@ -251,56 +258,49 @@ body {
 }
 
 .skills-wrapper {
+    position: relative;
     display: flex;
-    flex-direction: column;
+    
     gap: 1rem;
-    margin-top: 5rem;
+    margin-top: 15rem;
 }
 
-.skills-banner{
-    width: 100vw;
-    max-width: 600px; 
-    height: 256px;
-}
-
-.skills-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.skills-info ul {
+.skills-list {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 450px;
     flex-wrap: wrap;
     gap: 1.5rem;
+    transform: translate(100px,-230px);
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 20px;
 }
 
-.skills-info ul li {
+.skills-list li {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    width: 60px;
+    height: 60px;
     font-size: 0.7rem;
     border-radius: 50%;
     font-weight: 600;
     color: white;
 }
 
-.skills-info ul li:nth-child(even) {
+.skills-list li:nth-child(even) {
     background: darkgoldenrod;
 }
 
-.skills-info ul li:nth-child(odd) {
+.skills-list li:nth-child(odd) {
     background: darkslategray;
 }
 
 
-.skills-info ul li:nth-child(3n) {
+.skills-list li:nth-child(3n) {
     background: forestgreen;
 }
 
@@ -352,9 +352,4 @@ body {
 
 .project-item:hover:after {
     display: block;
-}
-
-.projectInfo button:hover {
-    cursor: pointer;
-    background: rgba(103, 210, 183, 0.658);
 }
